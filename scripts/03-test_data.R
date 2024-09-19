@@ -1,7 +1,7 @@
 #### Preamble ####
-# Purpose: Tests... [...UPDATE THIS...]
-# Author: Rohan Alexander [...UPDATE THIS...]
-# Date: 11 February 2023 [...UPDATE THIS...]
+# Purpose: Tests for Marriage Lisence finding
+# Author: Ziqi Zhu
+# Date: 19 September 2024
 # Contact: rohan.alexander@utoronto.ca [...UPDATE THIS...]
 # License: MIT
 # Pre-requisites: [...UPDATE THIS...]
@@ -13,3 +13,10 @@ library(tidyverse)
 # [...UPDATE THIS...]
 
 #### Test data ####
+data <- read.csv("data/raw_data/simulate.csv")
+
+# Test for negative numbers
+data$number_of_marriage |> min() <= 0
+
+# Test for NAs
+all(is.na(data$number_of_marriage))
