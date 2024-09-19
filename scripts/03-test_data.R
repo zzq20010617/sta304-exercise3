@@ -1,11 +1,10 @@
 #### Preamble ####
-# Purpose: Tests for Marriage Lisence finding
+# Purpose: Tests for Marriage Lisence data
 # Author: Ziqi Zhu
 # Date: 19 September 2024
-# Contact: rohan.alexander@utoronto.ca [...UPDATE THIS...]
+# Contact: ziqi.zhu@mail.utoronto.ca 
 # License: MIT
-# Pre-requisites: [...UPDATE THIS...]
-# Any other information needed? [...UPDATE THIS...]
+# Pre-requisites: None
 
 
 #### Workspace setup ####
